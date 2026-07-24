@@ -12,7 +12,7 @@ public class Usuarios {
     private String estado;
 
     //metodos
-    //constructor
+    //constructor con argumentos
 
     public Usuarios(int id_usuarios, String nombre, String apellido, String documento, String telefono, String correo, String tipo_usuario, String estado) {
         this.id_usuarios = id_usuarios;
@@ -23,6 +23,13 @@ public class Usuarios {
         this.correo = correo;
         this.tipo_usuario = tipo_usuario;
         this.estado = estado;
+    }
+
+    //constructor sin argumentos
+
+    public Usuarios()
+    {
+
     }
 
     //Getter and setter

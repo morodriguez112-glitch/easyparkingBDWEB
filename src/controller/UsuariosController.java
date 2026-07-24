@@ -16,7 +16,7 @@ public class UsuariosController {
 
     // metodo para agregar
 
-    public void agregar(Usuarios usuarios)
+    public boolean agregar(Usuarios usuarios)
     {
         Connection con = conexion.getConexion();
 
@@ -54,7 +54,7 @@ public class UsuariosController {
 
     // metodo para eliminar
 
-    public void eliminar (int id)
+    public boolean eliminar (int id)
     {
         Connection con = conexion.getConexion();
 
@@ -85,7 +85,7 @@ public class UsuariosController {
 
 // metodo para actualizar
 
-    public void actualizar (Usuarios usuarios)
+    public boolean actualizar (Usuarios usuarios)
     {
         Connection con = conexion.getConexion();
 
